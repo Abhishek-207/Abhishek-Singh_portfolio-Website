@@ -1,0 +1,160 @@
+@media (max-width: 1200px){
+    .side-bar{
+        display: none;
+        width: 100%;
+        z-index: 50000;
+        min-height: 88vh;
+        margin: -1rem -1.5rem;
+        padding-bottom: 20rem;
+    }
+    .main-body{
+        margin: 0;
+    }
+    .segments{
+        margin-top: 10rem;
+    }
+    .nav-bar{
+        display: none;
+    }
+    h1{
+        font-size: 3.8rem;
+    }
+    .top-nav{
+        display: block;
+        padding: 2rem 3rem;
+        margin: 0rem -2rem 1rem -2rem;
+        position: fixed;
+        top: 0;
+        width: 101%;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--lighterBackgroundColor);
+        /* position: relative; */
+    }
+    .top-nav-img{
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+    }
+    .top-nav-img i{
+        color: var(--headingColor);
+        font-size: 2.5rem;
+        margin-left: 1rem;
+        animation: zoomOutIn 1.5s linear infinite;
+    }
+    .top-nav-menu i {
+        color: var(--headingColor);
+        font-size: 4rem;
+        animation: zoomOutIn 1.5s linear infinite;
+        transform: scale(1.08);
+    }
+    .top-nav-img img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+    }
+    .top{
+        position: relative;
+    }
+    .mobile-navs{
+        display: none;
+        background-color: var(--gradient1);
+        margin-top: -1rem;
+        z-index: 20;
+        position: fixed;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 90vh;
+    }
+    .nav-sect{
+        margin-left: 30vw;
+        height: 100%;
+        text-align: left;
+        background-color: var(--backgroundColor);
+        /* padding-left: 3rem; */
+    }
+    .mobile-navs .nav a{
+        padding-bottom: 1rem;
+        display: inline-block;
+        padding: 2rem 3rem;
+    }
+    .mobile-navs .nav{
+        border-bottom: .1px solid var(--textColor);
+        margin: 0;
+            /* padding: 0; */
+        /* text-align: right; */
+    }
+    .mood-switch{
+        display: none;
+        /* background-color: var(--lighterBackgroundColor); */
+        background-color: #fff;
+        width: 5rem;
+        height: 5rem;
+        padding: 1rem 1rem;
+        /* border-radius: 100%; */
+        left: 0rem;
+        font-size: 3rem;
+        position: fixed;
+        top: 45vh;
+        z-index: 100000;
+        color: var(--headingColor);
+    }
+
+}
+
+
+
+@media (max-width: 800px) {
+    html{
+        font-size: 7px;
+    }
+    .resume-details {
+        display: block;
+    }
+    .cont {
+        padding: 5rem 0;
+        display: block;
+
+    }
+    h1 {
+        font-size: 3.6rem;
+    }
+    h6{
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.8rem;
+    }
+    .typing{
+        font-size: 1.3rem;
+    }
+    .intro-text {
+        padding: 6rem 3rem;
+    }
+    .about {
+        padding: 3rem;
+    }
+    .resume {
+        padding: 3rem;
+    }
+    .portfolio {
+        padding: 3rem;
+    }
+    .testimonials {
+        padding: 3rem;
+    }
+    .cont-form {
+        margin: 2.5rem;
+    }
+    .cont-detail {
+        margin: 2.5rem;
+    }
+    .pro-links a {
+        padding: 0.8rem 1.3rem
+    }
+}

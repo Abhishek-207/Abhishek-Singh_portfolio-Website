@@ -1,0 +1,141 @@
+/* 
+----MY MAJOR COLORS----
+dark-blue: #182333;
+yellow: #F7A02D;
+white: #e6e7e9; 
+*/
+
+/* ----COLORS---- */
+:root{
+    --mainBackgroundColor: #060f18;
+    --backgroundColor: #091523;
+    --lighterBackgroundColor: #182333;
+    --highlightedTextColor: #F7A02D;
+    --textColor: #F2F2F2;
+    --hoverColor: #E6E7E9;
+}
+
+.Light {
+    --mainBackgroundColor: #182333;
+    --backgroundColor: #182333;
+    --lighterBackgroundColor: rgba(24, 36, 52, 0.6);
+    --highlightedTextColor: #F7A02D;
+    --textColor: #F2F2F2;
+    --hoverColor: #E6E7E9;
+}
+
+
+/* ----UNIVERSAL---- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: #060f18;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2F2F2;
+    margin: 1.5rem 0;
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ----HEADER and NAVIGATIONS---- */
+.header{
+    background-color: var(--backgroundColor);
+    
+}
+.header nav .navigations{
+    display: flex;
+    /* align-content: center; */
+    justify-content: right;
+    margin: 0 3rem;
+}
+.header nav .navigations ul{
+    display: flex;
+    list-style: none;
+}
+.header nav .navigations ul li{
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+/* ----SIDE-BAR---- */
+.side-bar{
+    background-color: var(--backgroundColor);
+    width: 30rem;
+    height: 100vh;
+    margin: 0 1.5rem;
+    position: fixed;
+}
+/* profile */
+.profile{
+    background-color: var(--lighterBackgroundColor);
+    padding: 2rem 0;
+}
+.profile .profile-img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.profile .profile-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+.profile .profile-img img:hover{
+    scale: 1.05;
+}
+
+.profile .desc{
+    text-align: center;
+}
+.profile .social-links{
+    
+}
+.profile .social-links ul{
+    display: flex;
+    list-style: none;
+    left: 50%;
+}
+.profile .social-links ul li{
+    padding: .8rem;
+}
+
+
+
+
+
+.main-body{
+    background-color: var(--backgroundColor);
+    margin-left: 33rem;
+    height: 100vh;
+}
+
+
+
+
+
+.nav {
+    background-color: var(--backgroundColor);
+    /* width: 30rem; */
+   
+    height: 100vh;
+    /* margin: 0 1.5rem; */
+    /* position: fixed; */
+}
+
+.segments{
+    display: flex;
+}
