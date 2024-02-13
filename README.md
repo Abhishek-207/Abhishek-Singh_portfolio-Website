@@ -1,7 +1,7 @@
  # My Portfolio Website
 
 ## Abhishek Singh
-A Dynamic Website Showcasing Personal Portfolio, Along with Projects and Information, Containing Links to Social handles and Feature of Dowloading the Resume
+A Static Website Showcasing Personal Portfolio, Along with Projects and Information, Containing Links to Social handles and Feature of Dowloading the Resume
 ![myPF](https://github.com/Abhishek-207/Abhishek-Singh_portfolio-Website/assets/98517363/543e0a63-191c-4c46-b6c6-4331943e27ff)
                             
 
